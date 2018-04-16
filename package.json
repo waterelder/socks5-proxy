@@ -9,7 +9,7 @@
     "socksv5": "^0.0.6"
   },
   "scripts": {
-    "deploy:prod": "pm2 deploy stage",
+    "deploy:prod": "pm2 deploy prod",
     "start": "node index.js"
   }
 }
