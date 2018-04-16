@@ -1,0 +1,14 @@
+{
+  "name": "heroku-simple-socks5-proxy",
+  "version": "0.0.1",
+  "description": "Simple Heroku Socks5 Proxy",
+  "main": "index.js",
+  "author": "Alex Kalina <kalinalex91@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "socksv5": "^0.0.6"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
