@@ -12,9 +12,9 @@ module.exports = {
     }
   ],
   deploy: {
-    stage: {
-      user: "master",
-      host: "92.53.66.193",
+    prod: {
+      user: "lex",
+      host: "178.238.233.88",
       "ssh_options": "ForwardAgent=yes",
       ref: "origin/master",
       repo: "git@github.com:waterelder/socks5-proxy.git",
