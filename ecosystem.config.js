@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "socks5-proxy",
-      script: "./index.js",
+      script: "index.js",
       env: {
         COMMON_VARIABLE: "true"
       },
