@@ -4,7 +4,6 @@ const fs = require('fs');
 const config = JSON.parse(fs.readFileSync('./config.json', 'utf8'));
 
 const srv = socks.createServer((info, accept, deny) => {
-  console.log(info);
   accept();
 });
 
