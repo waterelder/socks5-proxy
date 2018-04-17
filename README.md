@@ -1,10 +1,10 @@
 ## Setup
 
 ### Requirements
-"node": ">= 4, git, yarn (optional), pm2 (optional)
+node.js, git, yarn (optional), pm2 (optional)
 
 
-###Installation
+### Installation
 ```
 $ git clone https://github.com/waterelder/socks5-proxy.git
 $ cd socks5-proxy
