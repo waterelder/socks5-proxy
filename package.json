@@ -10,6 +10,6 @@
   },
   "scripts": {
     "deploy:prod": "pm2 deploy prod",
-    "start": "node index.js"
+    "start": "npm install && node index.js"
   }
 }
