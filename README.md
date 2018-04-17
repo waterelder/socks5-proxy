@@ -21,5 +21,7 @@ $ pm2 run index.js
 ```
 $ git clone https://github.com/waterelder/socks5-proxy.git
 $ cd socks5-proxy
+$ cp config.json.dist config.json
+// configure your password, login and port in config.json
 $ docker-compose up -d    // Don't forget specify your port in docker-compose.yml
 ```
